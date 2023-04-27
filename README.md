@@ -71,9 +71,11 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 
 ## STM 32 CUBE PROGRAM :
-```c
+```
 Developed by: Vineesh.M
 RegisterNumber: 212221230122
+```
+```c
 #include "main.h"
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -124,14 +126,13 @@ void Error_Handler(void)
 ## Output screen shots of proteus  :
 ## LED OFF:
 
+![exp3 1](https://user-images.githubusercontent.com/93427254/234922343-a3e728a6-cf4b-4020-94e4-e104718e6d72.png)
+
 ## LED ON:
 
+![exp3 2](https://user-images.githubusercontent.com/93427254/234922418-8cb606f4-d67d-4a65-a12e-8df4559e4986.png)
 
-
-
-## Proteus layout(Add pdf screen shot of circuit here)
- 
- 
+  
  
  
 ## Result :
