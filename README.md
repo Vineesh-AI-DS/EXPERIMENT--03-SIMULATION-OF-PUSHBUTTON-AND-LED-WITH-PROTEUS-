@@ -76,49 +76,35 @@ Developed by: Vineesh.M
 RegisterNumber: 212221230122
 ```
 ```c
+
 #include "main.h"
+#include"stdio.h"
+#include"stdbool.h"
+bool pm;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-
 int main(void)
 {
-  
   HAL_Init();
-
   SystemClock_Config();
-
   MX_GPIO_Init();
-  
-  while (1)
-  {
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
-	  HAL_Delay(500);
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
-	  HAL_Delay(500);
-    
+	  while (1)
+	    {
+	     pm= HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_1);
+	      if(pm==0)
+              {
+	  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  	HAL_Delay(1000);
+	  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  	HAL_Delay(1000);
+	       }
+	      else
+	       {
+	  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	        }
+	     }
   }
- 
-}
 
- 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
-  {
-    Error_Handler();
-  }
-}
-
-
-  
-
-void Error_Handler(void)
-{
-  
-  __disable_irq();
-  while (1)
-  {
-  }
-  
-}
 ```
 
 
@@ -126,13 +112,15 @@ void Error_Handler(void)
 ## Output screen shots of proteus  :
 ## LED OFF:
 
-![exp3 1](https://user-images.githubusercontent.com/93427254/234922343-a3e728a6-cf4b-4020-94e4-e104718e6d72.png)
+![vin3](https://user-images.githubusercontent.com/93427254/234926933-55409db7-174a-482e-a4bb-79cec1db82e4.png)
 
 ## LED ON:
+![vin2](https://user-images.githubusercontent.com/93427254/234926945-c081a5a7-88f4-4386-b0d4-bf9054726aa3.png)
 
-![exp3 2](https://user-images.githubusercontent.com/93427254/234922418-8cb606f4-d67d-4a65-a12e-8df4559e4986.png)
+## Proteus layout(Add pdf screen shot of circuit here)
 
-  
+![vin1](https://user-images.githubusercontent.com/93427254/234926965-6dcbf329-90b3-4ff4-ac73-619f656182ba.png)
+
  
  
 ## Result :
