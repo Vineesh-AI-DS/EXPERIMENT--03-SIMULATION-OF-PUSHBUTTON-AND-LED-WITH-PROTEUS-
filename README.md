@@ -119,8 +119,6 @@ int main(void)
 ![viai](https://user-images.githubusercontent.com/93427254/234928220-240b97f4-4874-4922-8576-98164ce175d7.png)
 
 ## Proteus layout(Add pdf screen shot of circuit here)
-![vibi](https://user-images.githubusercontent.com/93427254/234928298-da56ddbb-407a-43c7-a215-e9024e0ca4e2.png)
-
 
 ![vin1](https://user-images.githubusercontent.com/93427254/234926965-6dcbf329-90b3-4ff4-ac73-619f656182ba.png)
 
