@@ -112,12 +112,15 @@ int main(void)
 ## Output screen shots of proteus  :
 ## LED OFF:
 
-![vin3](https://user-images.githubusercontent.com/93427254/234926933-55409db7-174a-482e-a4bb-79cec1db82e4.png)
+![vibi](https://user-images.githubusercontent.com/93427254/234928298-da56ddbb-407a-43c7-a215-e9024e0ca4e2.png)
 
 ## LED ON:
-![vin2](https://user-images.githubusercontent.com/93427254/234926945-c081a5a7-88f4-4386-b0d4-bf9054726aa3.png)
+
+![viai](https://user-images.githubusercontent.com/93427254/234928220-240b97f4-4874-4922-8576-98164ce175d7.png)
 
 ## Proteus layout(Add pdf screen shot of circuit here)
+![vibi](https://user-images.githubusercontent.com/93427254/234928298-da56ddbb-407a-43c7-a215-e9024e0ca4e2.png)
+
 
 ![vin1](https://user-images.githubusercontent.com/93427254/234926965-6dcbf329-90b3-4ff4-ac73-619f656182ba.png)
 
